@@ -17,7 +17,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 
 // Logger middleware
-app.use(logger)
+app.use(logger) 
 
 //setup static folder
 // app.use(express.static(path.join(__dirname,'public')))
